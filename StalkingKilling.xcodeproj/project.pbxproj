@@ -11,6 +11,7 @@
 		BD2D4F182A4B1BD4000D0D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */; };
 		BD2D4F1A2A4B1BE1000D0D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */; };
 		BD2D4F1D2A4B1BE1000D0D20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2D4F1C2A4B1BE1000D0D20 /* Preview Assets.xcassets */; };
+		BD96A47D2A4B2DC00095820B /* ButchersDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A47C2A4B2DC00095820B /* ButchersDeath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2D4F1C2A4B1BE1000D0D20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD96A47C2A4B2DC00095820B /* ButchersDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButchersDeath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				BD2D4F152A4B1BD4000D0D20 /* StalkingKillingApp.swift */,
+				BD96A47C2A4B2DC00095820B /* ButchersDeath.swift */,
 				BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */,
 				BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */,
 				BD2D4F1B2A4B1BE1000D0D20 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2D4F182A4B1BD4000D0D20 /* ContentView.swift in Sources */,
+				BD96A47D2A4B2DC00095820B /* ButchersDeath.swift in Sources */,
 				BD2D4F162A4B1BD4000D0D20 /* StalkingKillingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

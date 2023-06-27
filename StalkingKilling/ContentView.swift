@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house")
+            Image(systemName: "house.fill")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("is the preview working on your side?")
