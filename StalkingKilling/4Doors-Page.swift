@@ -17,6 +17,6 @@ struct _Doors_Page: View {
 
 struct _Doors_Page_Previews: PreviewProvider {
     static var previews: some View {
-        _Doors_Page()
+        Doors_Page()
     }
 }
