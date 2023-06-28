@@ -62,10 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				BD2D4F152A4B1BD4000D0D20 /* StalkingKillingApp.swift */,
+				BD793B3C2A4C68E00062C302 /* Title Screen.swift */,
 				BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */,
 				BD96A47C2A4B2DC00095820B /* ButchersDeath.swift */,
 				BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */,
-				BD793B3C2A4C68E00062C302 /* Title Screen.swift */,
 				BD96A4802A4B35860095820B /* CannonBall-Death.swift */,
 				BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */,
 				BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */,
