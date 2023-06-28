@@ -17,6 +17,7 @@
 		BD96A47F2A4B34450095820B /* CanYouHearMe-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */; };
 		BD96A4812A4B35860095820B /* CannonBall-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A4802A4B35860095820B /* CannonBall-Death.swift */; };
 		BD96A4832A4B37F30095820B /* ToughBreak-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */; };
+		BDAA183A2A4C927200FDA679 /* CannonBall-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */; };
 		BDAD71F12A4C7A3900362436 /* Doors-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAD71F02A4C7A3900362436 /* Doors-Page.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanYouHearMe-Death.swift"; sourceTree = "<group>"; };
 		BD96A4802A4B35860095820B /* CannonBall-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CannonBall-Death.swift"; sourceTree = "<group>"; };
 		BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToughBreak-Death.swift"; sourceTree = "<group>"; };
+		BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CannonBall-Page.swift"; sourceTree = "<group>"; };
 		BDAD71F02A4C7A3900362436 /* Doors-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doors-Page.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +72,7 @@
 				BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */,
 				BD047C392A4C866F0026676D /* Passcode.swift */,
 				BDAD71F02A4C7A3900362436 /* Doors-Page.swift */,
-				BD96A47C2A4B2DC00095820B /* Butchers-Death.swift */,
+				BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */,
 				BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */,
 				BD96A4802A4B35860095820B /* CannonBall-Death.swift */,
 				BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */,
@@ -162,6 +164,7 @@
 				BD2D4F182A4B1BD4000D0D20 /* ContentView.swift in Sources */,
 				BD96A4812A4B35860095820B /* CannonBall-Death.swift in Sources */,
 				BD047C3A2A4C866F0026676D /* Passcode.swift in Sources */,
+				BDAA183A2A4C927200FDA679 /* CannonBall-Page.swift in Sources */,
 				BD96A47D2A4B2DC00095820B /* Butchers-Death.swift in Sources */,
 				BDAD71F12A4C7A3900362436 /* Doors-Page.swift in Sources */,
 				BD2D4F162A4B1BD4000D0D20 /* StalkingKillingApp.swift in Sources */,
