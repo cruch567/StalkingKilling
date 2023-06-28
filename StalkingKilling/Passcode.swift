@@ -14,6 +14,7 @@ struct Passcode: View {
     @State private var cieling = false
     @State private var nightstand = false
     @State private var bed = false
+    @State private var textBox = true
     
     var body: some View {
         
@@ -22,19 +23,15 @@ struct Passcode: View {
             ZStack (alignment: .bottom){
                 
                 Image("passcoderoom.jpeg")
-                
-                RoundedRectangle(cornerRadius: 10)
-                    .padding(.bottom, 70.0)
-                    .frame(width: 600.0, height: 150.0)
-                
-                Text("*You wake up in a room*")
+                    
+                Button("You wake up in a room, and find a door in need of a 4 digit password, where do you check?"){
+                    
+                }
+                .background(Color.black)
                     .font(.title)
-                
                     .foregroundColor(Color.red)
                     .padding(.top, 20.0)
-                    .frame(width: 300.0, height: 250.0)
-                    
-                
+                    .frame(width: 600.0, height: 250.0)
             }//end of ZStack
             
         }
