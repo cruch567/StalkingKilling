@@ -12,6 +12,8 @@ struct ContentView: View {
         
         //fml hhhhhh
         //k
+        //ijibol
+        //loko
         
         ZStack(alignment: .center){
             Image("titlescreen.jpeg")
