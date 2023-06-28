@@ -9,5 +9,6 @@ import SwiftUI
 
 struct TitlteScreen: View {
     var body: some View {
-        
-    }}
+     Text("")
+    }
+}
