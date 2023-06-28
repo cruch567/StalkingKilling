@@ -10,9 +10,9 @@ import SwiftUI
 struct Doors_Page: View {
     var body: some View {
         Image("4Doors.jpeg")
+            .resizable()
             .renderingMode(.original)
-            .aspectRatio(contentMode: .fit)
-            .frame(width: 200, height: 20)
+            .frame(width: 900.0, height: 500.0)
             .previewInterfaceOrientation(.landscapeRight)
 
     }
