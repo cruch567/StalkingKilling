@@ -11,7 +11,8 @@ import SwiftUI
 struct Passcode: View {
     var body: some View {
         
-        Text("")
+        Image("passcoderoom.jpeg")
+        
         
     }
 }
