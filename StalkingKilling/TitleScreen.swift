@@ -9,7 +9,18 @@ import SwiftUI
 
 struct TitlteScreen: View {
     var body: some View {
-        Text("")
+        
+        ZStack(alignment: .center){
+           
+            Image("titlescreen.jpeg")
+                .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                .padding(.all, -80.0)
+                .edgesIgnoringSafeArea(.all)
+                .frame(width: 500.0)
+            
+        }
+            
         
     }
 }
