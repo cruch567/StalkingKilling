@@ -13,6 +13,7 @@ struct Doors_Page: View {
             .renderingMode(.original)
             .aspectRatio(contentMode: .fit)
             .frame(width: 200, height: 20)
+            .previewInterfaceOrientation(.landscapeRight)
 
     }
 }
