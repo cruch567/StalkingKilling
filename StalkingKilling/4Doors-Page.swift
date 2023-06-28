@@ -2,14 +2,16 @@
 //  4Doors-Page.swift
 //  StalkingKilling
 //
-//  Created by scholar on 6/28/23.
-//
+//  Created by scholar on 6/28/23
 
 import SwiftUI
 
 struct _Doors_Page: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("4Doors.jpeg")
+            .renderingMode(.original)
+            .aspectRatio(contentMode: .fit)
+        Text("will this show up?")
     }
 }
 
