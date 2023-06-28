@@ -19,10 +19,7 @@ struct TitlteScreen: View {
             ZStack{
                     
                 NavigationLink(destination: Passcode()){
-                    
                     Button("Play") {
-                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                        
                     }
                     .font(.largeTitle)
                     .buttonStyle(.borderedProminent)
