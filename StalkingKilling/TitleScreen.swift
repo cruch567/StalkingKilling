@@ -9,6 +9,16 @@ import SwiftUI
 
 struct TitlteScreen: View {
     var body: some View {
-     Text("")
+        Text("")
+        
     }
 }
+    
+    
+        struct TitleScreen_Previews: PreviewProvider {
+            static var previews: some View {
+                TitlteScreen()
+            }
+        }
+    
+
