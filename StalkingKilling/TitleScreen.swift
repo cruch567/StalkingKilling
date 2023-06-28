@@ -5,4 +5,9 @@
 //  Created by Scholar on 6/28/23.
 //
 
-import Foundation
+import SwiftUI
+
+struct TitlteScreen: View {
+    var body: some View {
+        
+    }}
