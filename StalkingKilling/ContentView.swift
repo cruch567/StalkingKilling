@@ -16,16 +16,16 @@ struct ContentView: View {
         //loko
         ///jbyiugukg
         ///klkl
-        
-        ZStack(alignment: .center){
-            Image("titlescreen.jpeg")
-                .resizable()
-                .padding(.horizontal, -89.0)
-                .edgesIgnoringSafeArea(.all)
-                .frame(width: 700.0, height: 400.0)
-            
-            NavigationLink(destination: Passcode()){
-                Text("Play")
+        NavigationStack{
+            ZStack(alignment: .center){
+                Image("titlescreen.jpeg")
+                    .resizable()
+                    .padding(.horizontal, -89.0)
+                    .edgesIgnoringSafeArea(.all)
+                    .frame(width: 700.0, height: 400.0)
+                
+                NavigationLink(destination: Passcode()){
+                    Text("Play")
                 }
                 .background(Color(hue: 1.0, saturation: 0.982, brightness: 0.584))
                 .foregroundColor(Color.black)
@@ -53,4 +53,4 @@ struct ContentView: View {
             ContentView()
         }
     }
-
+}
