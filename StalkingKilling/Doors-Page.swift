@@ -24,17 +24,31 @@ struct Doors_Page: View {
                         .cornerRadius(20)
                         .foregroundColor(.red)
                 }
-                NavigationLink(destination: CanYouHearMe_Death()){
-                        Text("Door C                                                .\n")
+                NavigationLink(destination: CannonBall_Page()){
+                    Text("Door C                                                .\n")
+                        .font(.title3)
+                        .buttonStyle(.borderedProminent)
+                        .cornerRadius(20)
+                        .foregroundColor(.red)
+                }
+                    NavigationLink(destination: CanYouHearMe_Death()){
+                        Text(".                                                     Door B\n")
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .cornerRadius(20)
                             .foregroundColor(.red)
+                    }
+                NavigationLink(destination: CanYouHearMe_Death()){
+                    Text(".                                                                                                     Door D\n\n")
+                        .font(.title)
+                        .buttonStyle(.borderedProminent)
+                        .cornerRadius(20)
+                        .foregroundColor(.red)
+                }
                 }
             }
         }
     }
-}
     
     struct Doors_Page_Previews: PreviewProvider {
         static var previews: some View {

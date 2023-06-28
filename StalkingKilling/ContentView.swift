@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    var sample = "hi"
     var body: some View {
         
         //fml hhhhhh
