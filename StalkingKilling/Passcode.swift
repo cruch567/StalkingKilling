@@ -33,7 +33,9 @@ struct Passcode: View {
                     .padding(.top, 20.0)
                     .frame(width: 600.0, height: 250.0)
                 
-              
+                NavigationLink(destination: CielingCLoseUp()) {
+                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                }
                 
             }//end of ZStack
             
