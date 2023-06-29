@@ -8,29 +8,31 @@
 import SwiftUI
 
 struct Doors_Page: View {
+    @State private var isHidden = true
     var body: some View {
-        ZStack{
-            Image("4Doors.jpeg")
-                .resizable()
-                .renderingMode(.original)
-                .frame(width: 900.0, height: 450.0)
-                .previewInterfaceOrientation(.landscapeRight)
-            
+        NavigationStack {
             ZStack{
-                NavigationLink(destination: CanYouHearMe_Death()){
-                    Text("Door A                                                                                                .\n\n")
-                        .font(.title)
-                        .buttonStyle(.borderedProminent)
-                        .cornerRadius(20)
-                        .foregroundColor(.red)
-                }
-                NavigationLink(destination: CannonBall_Page()){
-                    Text("Door C                                                .\n")
-                        .font(.title3)
-                        .buttonStyle(.borderedProminent)
-                        .cornerRadius(20)
-                        .foregroundColor(.red)
-                }
+                Image("4Doors.jpeg")
+                    .resizable()
+                    .renderingMode(.original)
+                    .frame(width: 900.0, height: 450.0)
+                    .previewInterfaceOrientation(.landscapeRight)
+                
+                ZStack{
+                    NavigationLink(destination: CanYouHearMe_Death()){
+                        Text("Door A                                                                                                .\n\n")
+                            .font(.title)
+                            .buttonStyle(.borderedProminent)
+                            .cornerRadius(20)
+                            .foregroundColor(.red)
+                    }
+                    NavigationLink(destination: CannonBall_Page()){
+                        Text("Door C                                                .\n")
+                            .font(.title3)
+                            .buttonStyle(.borderedProminent)
+                            .cornerRadius(20)
+                            .foregroundColor(.red)
+                    }
                     NavigationLink(destination: CanYouHearMe_Death()){
                         Text(".                                                     Door B\n")
                             .font(.title3)
@@ -38,14 +40,38 @@ struct Doors_Page: View {
                             .cornerRadius(20)
                             .foregroundColor(.red)
                     }
-                NavigationLink(destination: CanYouHearMe_Death()){
-                    Text(".                                                                                                     Door D\n\n")
-                        .font(.title)
-                        .buttonStyle(.borderedProminent)
-                        .cornerRadius(20)
-                        .foregroundColor(.red)
+                    NavigationLink(destination: Spikes_Death()){
+                        Text("\n Straight\n Ahead")
+                            .font(.title3)
+                            .buttonStyle(.borderedProminent)
+                            .cornerRadius(20)
+                            .foregroundColor(.red)
+                    }
+                    
+                    Button(".                                                                                                     Door D\n\n"){
+                        isHidden = false
+                    }
+                    .font(.title)
+                    .cornerRadius(20)
+                    .foregroundColor(.red)
+                    if isHidden {
+                        Text("This door is locked\n\n\n\n\n\n\n\n\n")
+                            .font(.title)
+                            .buttonStyle(.borderedProminent)
+                            .fontWeight(.bold)
+                            .cornerRadius(20)
+                            .foregroundColor(.red)
+                            .hidden()
+                    }else{
+                        Text("This door is locked\n\n\n\n\n\n\n\n\n")
+                            .font(.title)
+                            .buttonStyle(.borderedProminent)
+                            .fontWeight(.bold)
+                            .cornerRadius(20)
+                            .foregroundColor(.red)
+                    }
                 }
-                }
+            }
             }
         }
     }
