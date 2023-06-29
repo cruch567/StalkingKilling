@@ -10,6 +10,11 @@
 		BD028CD12A4DC4D1007525FB /* Butchers-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD028CD02A4DC4D1007525FB /* Butchers-Page.swift */; };
 		BD028D112A4DC8D0007525FB /* Butcher-Death2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */; };
 		BD047C3A2A4C866F0026676D /* Passcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD047C392A4C866F0026676D /* Passcode.swift */; };
+		BD10CDF22A4DCBE50002E87D /* CielingCloseUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD10CDF12A4DCBE50002E87D /* CielingCloseUp.swift */; };
+		BD10CDF42A4DCBF40002E87D /* FloorCloseUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD10CDF32A4DCBF40002E87D /* FloorCloseUp.swift */; };
+		BD10CDF62A4DCC050002E87D /* NightstandCloseUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD10CDF52A4DCC050002E87D /* NightstandCloseUp.swift */; };
+		BD10CDF82A4DCC100002E87D /* BedCloseUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD10CDF72A4DCC100002E87D /* BedCloseUp.swift */; };
+		BD10CDFA2A4DCC420002E87D /* PasscodeCloseUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD10CDF92A4DCC420002E87D /* PasscodeCloseUp.swift */; };
 		BD2D4F162A4B1BD4000D0D20 /* StalkingKillingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D4F152A4B1BD4000D0D20 /* StalkingKillingApp.swift */; };
 		BD2D4F182A4B1BD4000D0D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */; };
 		BD2D4F1A2A4B1BE1000D0D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */; };
@@ -28,6 +33,11 @@
 		BD028CD02A4DC4D1007525FB /* Butchers-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Butchers-Page.swift"; sourceTree = "<group>"; };
 		BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Butcher-Death2.swift"; sourceTree = "<group>"; };
 		BD047C392A4C866F0026676D /* Passcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passcode.swift; sourceTree = "<group>"; };
+		BD10CDF12A4DCBE50002E87D /* CielingCloseUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CielingCloseUp.swift; sourceTree = "<group>"; };
+		BD10CDF32A4DCBF40002E87D /* FloorCloseUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorCloseUp.swift; sourceTree = "<group>"; };
+		BD10CDF52A4DCC050002E87D /* NightstandCloseUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightstandCloseUp.swift; sourceTree = "<group>"; };
+		BD10CDF72A4DCC100002E87D /* BedCloseUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedCloseUp.swift; sourceTree = "<group>"; };
+		BD10CDF92A4DCC420002E87D /* PasscodeCloseUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeCloseUp.swift; sourceTree = "<group>"; };
 		BD2D4F122A4B1BD4000D0D20 /* StalkingKilling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StalkingKilling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2D4F152A4B1BD4000D0D20 /* StalkingKillingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkingKillingApp.swift; sourceTree = "<group>"; };
 		BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +87,11 @@
 				BD793B3C2A4C68E00062C302 /* TitleScreen.swift */,
 				BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */,
 				BD047C392A4C866F0026676D /* Passcode.swift */,
+				BD10CDF12A4DCBE50002E87D /* CielingCloseUp.swift */,
+				BD10CDF72A4DCC100002E87D /* BedCloseUp.swift */,
+				BD10CDF32A4DCBF40002E87D /* FloorCloseUp.swift */,
+				BD10CDF52A4DCC050002E87D /* NightstandCloseUp.swift */,
+				BD10CDF92A4DCC420002E87D /* PasscodeCloseUp.swift */,
 				BDAD71F02A4C7A3900362436 /* Doors-Page.swift */,
 				BD028CD02A4DC4D1007525FB /* Butchers-Page.swift */,
 				BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */,
@@ -171,15 +186,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD793B3D2A4C68E00062C302 /* TitleScreen.swift in Sources */,
+				BD10CDF62A4DCC050002E87D /* NightstandCloseUp.swift in Sources */,
+				BD10CDF42A4DCBF40002E87D /* FloorCloseUp.swift in Sources */,
+				BD10CDFA2A4DCC420002E87D /* PasscodeCloseUp.swift in Sources */,
 				BD2D4F182A4B1BD4000D0D20 /* ContentView.swift in Sources */,
 				BD028D112A4DC8D0007525FB /* Butcher-Death2.swift in Sources */,
 				BD70809A2A4CA7E300F84D88 /* ButchersDeath.swift in Sources */,
 				BD96A4812A4B35860095820B /* CannonBall-Death.swift in Sources */,
 				BDC995D42A4DB9FB00ACC752 /* Spikes-Death.swift in Sources */,
 				BD047C3A2A4C866F0026676D /* Passcode.swift in Sources */,
+				BD10CDF22A4DCBE50002E87D /* CielingCloseUp.swift in Sources */,
 				BDAA183A2A4C927200FDA679 /* CannonBall-Page.swift in Sources */,
 				BDAD71F12A4C7A3900362436 /* Doors-Page.swift in Sources */,
 				BD028CD12A4DC4D1007525FB /* Butchers-Page.swift in Sources */,
+				BD10CDF82A4DCC100002E87D /* BedCloseUp.swift in Sources */,
 				BD2D4F162A4B1BD4000D0D20 /* StalkingKillingApp.swift in Sources */,
 				BD96A4832A4B37F30095820B /* ToughBreak-Death.swift in Sources */,
 				BD96A47F2A4B34450095820B /* CanYouHearMe-Death.swift in Sources */,

@@ -32,9 +32,12 @@ struct Passcode: View {
                     .foregroundColor(Color.red)
                     .padding(.top, 20.0)
                     .frame(width: 600.0, height: 250.0)
+                
+              
+                
             }//end of ZStack
             
-        }
+        }//end of navigation stack
     }
     
     
