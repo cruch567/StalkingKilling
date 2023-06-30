@@ -16,6 +16,8 @@ struct PasscodeCLoseUp: View {
         VStack {
             
             Image("pass")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
             
             TextField("Enter Passcode", text: $name)
                 .padding(.leading)

@@ -9,9 +9,13 @@ import SwiftUI
 
 struct Lion_Page: View {
     var body: some View {
+        ZStack{
+        Image("lion.jpeg")
+       
         HStack {
+            
             NavigationStack{
-                Image("lion.jpeg")
+              
                 VStack{
                     Text("Theres a lion in this room! Quick, grab the gun and kill it!\n")
                         .font(.title3)
@@ -23,7 +27,8 @@ struct Lion_Page: View {
                     }
                     NavigationLink(destination: Lion_Death()){
                         Text("Do Nothing")
-                    }
+                        
+                    }                    }
                 }
             }
         }

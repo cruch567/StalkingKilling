@@ -27,7 +27,7 @@ struct Butchers_Page: View {
                 HStack{
                     Text("I")
                         .foregroundColor(.red)
-                        .padding(.top)
+                        
                     
                     Button("Talk to Butcher"){
                         isHidden2.toggle()
@@ -42,14 +42,14 @@ struct Butchers_Page: View {
                             .foregroundColor(.black)
                         Text("I")
                             .foregroundColor(.red)
-                            .padding(.top)
+                            
                         NavigationLink(destination: Butcher_Death2()){
                             Text("Do Nothing")
                                 .font(.title3)
                                 .foregroundColor(.black)
                             Text("I")
                                 .foregroundColor(.red)
-                                .padding(.top)
+                                
                         }
                     }
                 }

@@ -28,27 +28,27 @@ struct CannonBall_Page: View {
                     NavigationLink(destination: CannonBall_Death()) {
                         Text("I")
                             .foregroundColor(.red)
-                            .padding(.top)
+                            .padding(.bottom, 4.0)
                         Text("Launch Yourself")
                             .font(.title3)
                             .foregroundColor(.black)
-                            .padding(.top)
+                            .padding(.bottom, 5.0)
                         Text("I")
                             .foregroundColor(.red)
-                            .padding(.top)
+                            .padding(.bottom, 5.0)
                         NavigationLink(destination: HoleInWall_Page()) {
                             Text("Launch A Rock")
                                 .font(.title3)
                                 .foregroundColor(.black)
-                                .padding(.top)
+                                .padding(.bottom, 5.0)
                             Text("I")
                                 .foregroundColor(.red)
-                                .padding(.top)
+                                .padding(.bottom, 5.0)
                             NavigationLink(destination: Doors_Page()){
                                 Text("I Go Back I")
                                     .font(.title3)
                                     .foregroundColor(.red)
-                                    .padding([.top, .leading])
+                                    .padding(.bottom, 5.0)
                             }
                         }
                     }
