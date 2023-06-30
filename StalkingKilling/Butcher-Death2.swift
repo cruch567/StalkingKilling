@@ -27,7 +27,7 @@ struct Butcher_Death2: View {
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color.red)
-                Text("You were killed by The Butcher because your reaction time was too slow.\n\n")
+                Text("You were killed by The Butcher because you tried to attack him.\n\n")
                     .foregroundColor(Color.white)
                     .font(.title2)
                     .multilineTextAlignment(.center)
