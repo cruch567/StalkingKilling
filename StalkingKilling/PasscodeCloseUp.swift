@@ -15,6 +15,7 @@ struct PasscodeCLoseUp: View {
         
         VStack {
             
+            Image("pass")
             
             TextField("Enter Passcode", text: $name)
                 .padding(.leading)
