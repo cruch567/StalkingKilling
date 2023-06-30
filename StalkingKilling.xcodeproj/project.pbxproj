@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				BD2D4F152A4B1BD4000D0D20 /* StalkingKillingApp.swift */,
-				BD793B3C2A4C68E00062C302 /* TitleScreen.swift */,
 				BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */,
+				BD793B3C2A4C68E00062C302 /* TitleScreen.swift */,
 				BD047C392A4C866F0026676D /* Passcode.swift */,
 				BD10CDF12A4DCBE50002E87D /* CielingCloseUp.swift */,
 				BD10CDF72A4DCC100002E87D /* BedCloseUp.swift */,

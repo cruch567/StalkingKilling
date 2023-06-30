@@ -20,21 +20,21 @@ struct Doors_Page: View {
                 
                 ZStack{
                     NavigationLink(destination: CanYouHearMe_Death()){
-                        Text("Door A                                                                                                .\n\n")
+                        Text("\n\n\n Door A                                                                                                .\n\n")
                             .font(.title)
                             .buttonStyle(.borderedProminent)
                             .cornerRadius(20)
                             .foregroundColor(.red)
                     }
                     NavigationLink(destination: CannonBall_Page()){
-                        Text("Door C                                                .\n")
+                        Text("Door C                                                .\n\n\n")
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .cornerRadius(20)
                             .foregroundColor(.red)
                     }
-                    NavigationLink(destination: CanYouHearMe_Death()){
-                        Text(".                                                     Door B\n")
+                    NavigationLink(destination: Butchers_Page()){
+                        Text(".                                                         Door B\n\n")
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .cornerRadius(20)
@@ -47,9 +47,6 @@ struct Doors_Page: View {
                             .cornerRadius(20)
                             .foregroundColor(.red)
                     }
-                    
-                    Button(".                                                                                                     Door D\n\n"){
-                        isHidden = false
                     }
                     .font(.title)
                     .cornerRadius(20)
@@ -70,8 +67,14 @@ struct Doors_Page: View {
                             .cornerRadius(20)
                             .foregroundColor(.red)
                     }
+                Button(".                                                                                                                            Door D"){
+                    isHidden.toggle()
+                    
                 }
-            }
+                .font(.title3)
+                .foregroundColor(.red)
+
+                }
             }
         }
     }

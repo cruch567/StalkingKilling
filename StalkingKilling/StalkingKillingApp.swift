@@ -11,7 +11,7 @@ import SwiftUI
 struct StalkingKillingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Butchers_Page()
         }
     }
 }
