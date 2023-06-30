@@ -9,8 +9,17 @@ import SwiftUI
 
 struct Butcher_Snack: View {
     var body: some View {
-        Image("kitchen.jpeg")
-                    .renderingMode(.original)
+        NavigationStack{
+            Image("kitchen.jpeg")
+                .renderingMode(.original)
+            Text("Wow, thanks for this snack.. I really appriciate it")
+                .font(.title3)
+                .fontWeight(.bold)
+                .foregroundColor(.red)
+            NavigationLink(destination: Escaped()) {
+                Text("Next ->")
+            }
+        }
     }
 }
 
