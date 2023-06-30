@@ -21,6 +21,10 @@
 		BD2D4F1D2A4B1BE1000D0D20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2D4F1C2A4B1BE1000D0D20 /* Preview Assets.xcassets */; };
 		BD70809A2A4CA7E300F84D88 /* ButchersDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7080992A4CA7E300F84D88 /* ButchersDeath.swift */; };
 		BD793B3D2A4C68E00062C302 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD793B3C2A4C68E00062C302 /* TitleScreen.swift */; };
+		BD8B00342A4F2F8800272F43 /* Lion-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00332A4F2F8800272F43 /* Lion-Page.swift */; };
+		BD8B00362A4F2FBD00272F43 /* DeadLion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00352A4F2FBD00272F43 /* DeadLion.swift */; };
+		BD8B00382A4F2FE200272F43 /* Butcher-Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00372A4F2FE200272F43 /* Butcher-Snack.swift */; };
+		BD8B003A2A4F302200272F43 /* Lion-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00392A4F302200272F43 /* Lion-Death.swift */; };
 		BD96A47F2A4B34450095820B /* CanYouHearMe-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */; };
 		BD96A4812A4B35860095820B /* CannonBall-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A4802A4B35860095820B /* CannonBall-Death.swift */; };
 		BD96A4832A4B37F30095820B /* ToughBreak-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */; };
@@ -46,6 +50,10 @@
 		BD2D4F1C2A4B1BE1000D0D20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD7080992A4CA7E300F84D88 /* ButchersDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButchersDeath.swift; sourceTree = "<group>"; };
 		BD793B3C2A4C68E00062C302 /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
+		BD8B00332A4F2F8800272F43 /* Lion-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lion-Page.swift"; sourceTree = "<group>"; };
+		BD8B00352A4F2FBD00272F43 /* DeadLion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadLion.swift; sourceTree = "<group>"; };
+		BD8B00372A4F2FE200272F43 /* Butcher-Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Butcher-Snack.swift"; sourceTree = "<group>"; };
+		BD8B00392A4F302200272F43 /* Lion-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lion-Death.swift"; sourceTree = "<group>"; };
 		BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanYouHearMe-Death.swift"; sourceTree = "<group>"; };
 		BD96A4802A4B35860095820B /* CannonBall-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CannonBall-Death.swift"; sourceTree = "<group>"; };
 		BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToughBreak-Death.swift"; sourceTree = "<group>"; };
@@ -95,8 +103,11 @@
 				BD10CDF52A4DCC050002E87D /* NightstandCloseUp.swift */,
 				BD10CDF92A4DCC420002E87D /* PasscodeCloseUp.swift */,
 				BDAD71F02A4C7A3900362436 /* Doors-Page.swift */,
+				BD8B00332A4F2F8800272F43 /* Lion-Page.swift */,
+				BD8B00392A4F302200272F43 /* Lion-Death.swift */,
+				BD8B00352A4F2FBD00272F43 /* DeadLion.swift */,
+				BD8B00372A4F2FE200272F43 /* Butcher-Snack.swift */,
 				BD028CD02A4DC4D1007525FB /* Butchers-Page.swift */,
-				BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */,
 				BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */,
 				BDE3002C2A4F16000050CCD5 /* HoleInWall-Page.swift */,
 				BDC995D32A4DB9FB00ACC752 /* Spikes-Death.swift */,
@@ -104,6 +115,7 @@
 				BD96A4802A4B35860095820B /* CannonBall-Death.swift */,
 				BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */,
 				BD7080992A4CA7E300F84D88 /* ButchersDeath.swift */,
+				BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */,
 				BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */,
 				BD2D4F1B2A4B1BE1000D0D20 /* Preview Content */,
 			);
@@ -198,12 +210,16 @@
 				BD70809A2A4CA7E300F84D88 /* ButchersDeath.swift in Sources */,
 				BD96A4812A4B35860095820B /* CannonBall-Death.swift in Sources */,
 				BDC995D42A4DB9FB00ACC752 /* Spikes-Death.swift in Sources */,
+				BD8B00362A4F2FBD00272F43 /* DeadLion.swift in Sources */,
 				BD047C3A2A4C866F0026676D /* Passcode.swift in Sources */,
 				BD10CDF22A4DCBE50002E87D /* CielingCloseUp.swift in Sources */,
 				BDAA183A2A4C927200FDA679 /* CannonBall-Page.swift in Sources */,
+				BD8B00382A4F2FE200272F43 /* Butcher-Snack.swift in Sources */,
 				BDAD71F12A4C7A3900362436 /* Doors-Page.swift in Sources */,
+				BD8B00342A4F2F8800272F43 /* Lion-Page.swift in Sources */,
 				BD028CD12A4DC4D1007525FB /* Butchers-Page.swift in Sources */,
 				BD10CDF82A4DCC100002E87D /* BedCloseUp.swift in Sources */,
+				BD8B003A2A4F302200272F43 /* Lion-Death.swift in Sources */,
 				BD2D4F162A4B1BD4000D0D20 /* StalkingKillingApp.swift in Sources */,
 				BD96A4832A4B37F30095820B /* ToughBreak-Death.swift in Sources */,
 				BD96A47F2A4B34450095820B /* CanYouHearMe-Death.swift in Sources */,
