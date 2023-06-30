@@ -25,6 +25,7 @@
 		BD8B00362A4F2FBD00272F43 /* DeadLion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00352A4F2FBD00272F43 /* DeadLion.swift */; };
 		BD8B00382A4F2FE200272F43 /* Butcher-Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00372A4F2FE200272F43 /* Butcher-Snack.swift */; };
 		BD8B003A2A4F302200272F43 /* Lion-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00392A4F302200272F43 /* Lion-Death.swift */; };
+		BD8B003D2A4F37CB00272F43 /* Doors-Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B003C2A4F37CB00272F43 /* Doors-Page2.swift */; };
 		BD96A47F2A4B34450095820B /* CanYouHearMe-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */; };
 		BD96A4812A4B35860095820B /* CannonBall-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A4802A4B35860095820B /* CannonBall-Death.swift */; };
 		BD96A4832A4B37F30095820B /* ToughBreak-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */; };
@@ -54,6 +55,7 @@
 		BD8B00352A4F2FBD00272F43 /* DeadLion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadLion.swift; sourceTree = "<group>"; };
 		BD8B00372A4F2FE200272F43 /* Butcher-Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Butcher-Snack.swift"; sourceTree = "<group>"; };
 		BD8B00392A4F302200272F43 /* Lion-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lion-Death.swift"; sourceTree = "<group>"; };
+		BD8B003C2A4F37CB00272F43 /* Doors-Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doors-Page2.swift"; sourceTree = "<group>"; };
 		BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanYouHearMe-Death.swift"; sourceTree = "<group>"; };
 		BD96A4802A4B35860095820B /* CannonBall-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CannonBall-Death.swift"; sourceTree = "<group>"; };
 		BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToughBreak-Death.swift"; sourceTree = "<group>"; };
@@ -104,11 +106,12 @@
 				BD10CDF92A4DCC420002E87D /* PasscodeCloseUp.swift */,
 				BDAD71F02A4C7A3900362436 /* Doors-Page.swift */,
 				BD8B00332A4F2F8800272F43 /* Lion-Page.swift */,
-				BD8B00392A4F302200272F43 /* Lion-Death.swift */,
+				BD8B003C2A4F37CB00272F43 /* Doors-Page2.swift */,
 				BD8B00352A4F2FBD00272F43 /* DeadLion.swift */,
 				BD8B00372A4F2FE200272F43 /* Butcher-Snack.swift */,
 				BD028CD02A4DC4D1007525FB /* Butchers-Page.swift */,
 				BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */,
+				BD8B00392A4F302200272F43 /* Lion-Death.swift */,
 				BDE3002C2A4F16000050CCD5 /* HoleInWall-Page.swift */,
 				BDC995D32A4DB9FB00ACC752 /* Spikes-Death.swift */,
 				BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */,
@@ -215,6 +218,7 @@
 				BD10CDF22A4DCBE50002E87D /* CielingCloseUp.swift in Sources */,
 				BDAA183A2A4C927200FDA679 /* CannonBall-Page.swift in Sources */,
 				BD8B00382A4F2FE200272F43 /* Butcher-Snack.swift in Sources */,
+				BD8B003D2A4F37CB00272F43 /* Doors-Page2.swift in Sources */,
 				BDAD71F12A4C7A3900362436 /* Doors-Page.swift in Sources */,
 				BD8B00342A4F2F8800272F43 /* Lion-Page.swift in Sources */,
 				BD028CD12A4DC4D1007525FB /* Butchers-Page.swift in Sources */,

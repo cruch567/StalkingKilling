@@ -27,14 +27,10 @@ struct FloorloseUp: View {
                 .background(Color.black)
                 .font(.title)
                 .foregroundColor(Color.red)
-            }//end of Button
-            
+            }
         }
-                
-            }//hii
-          
-            
-        }
+        
+    }
     
     
     
@@ -44,3 +40,4 @@ struct FloorloseUp: View {
             FloorloseUp()
         }
     }
+}
