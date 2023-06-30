@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Lion_Death: View {
     var body: some View {
+
         ZStack {
             Color.black
                 .edgesIgnoringSafeArea(.all)
