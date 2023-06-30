@@ -63,6 +63,7 @@ struct Butchers_Page: View {
                         Text("Back to Hall")
                             .font(.title3)
                             .foregroundColor(.black)
+                    }
                     } else {
                         Text("Hm, you wanna talk? I'm craving some meat... Go find me a treat first")
                             .font(.title3)
