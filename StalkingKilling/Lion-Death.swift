@@ -34,6 +34,8 @@ struct Lion_Death: View {
                     .multilineTextAlignment(.center)
             }
         }
+        
+       
     }
     
     struct Lion_Death_Previews: PreviewProvider {
