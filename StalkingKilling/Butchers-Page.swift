@@ -59,7 +59,7 @@ struct Butchers_Page: View {
                         .fontWeight(.bold)
                         .foregroundColor(.red)
                         .hidden()
-                    NavigationLink(destination: Doors_Page()) {
+                    NavigationLink(destination: Doors_Page2()) {
                         Text("Back to Hall")
                             .font(.title3)
                             .foregroundColor(.black)
@@ -71,7 +71,7 @@ struct Butchers_Page: View {
                             .fontWeight(.bold)
                             .cornerRadius(20)
                             .foregroundColor(.red)
-                        NavigationLink(destination: Doors_Page()) {
+                        NavigationLink(destination: Doors_Page2()) {
                             Text("Back to Hall")
                                 .font(.title3)
                                 .foregroundColor(.black)

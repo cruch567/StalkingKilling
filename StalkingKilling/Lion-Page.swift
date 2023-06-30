@@ -11,9 +11,7 @@ struct Lion_Page: View {
     var body: some View {
         ZStack{
         Image("lion.jpeg")
-       
         HStack {
-            
             NavigationStack{
               
                 VStack{
