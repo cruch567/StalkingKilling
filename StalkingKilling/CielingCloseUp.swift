@@ -15,13 +15,14 @@ struct CielingCLoseUp: View {
         
         ZStack (alignment: .center){
             
-            Image("passcoderoom.jpeg")
+            Image("Ceiling")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
             
-            ZStack (alignment: .bottomTrailing){
-                Button("Next"){
-                    
+         
+            NavigationLink(destination: BedCloseUp()) {
+                Text("Bed")
+            }
                 }//end of Button
                 .background(Color.black)
                 .font(.title)
@@ -33,7 +34,7 @@ struct CielingCLoseUp: View {
            
             
         }
-    }
+    
     
     
     
@@ -42,4 +43,4 @@ struct CielingCLoseUp: View {
             CielingCLoseUp()
         }
     }
-}
+

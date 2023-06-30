@@ -18,10 +18,10 @@ struct BedCloseUp: View {
             Image("passcoderoom.jpeg")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
-            
-            ZStack (alignment: .bottomTrailing){
-                Button("Next"){
-                    
+          
+            NavigationLink(destination: BedCloseUp()) {
+                Text("Bed")
+            }
                 }//end of Button
                 .background(Color.black)
                 .font(.title)
@@ -32,7 +32,7 @@ struct BedCloseUp: View {
           
             
         }
-    }
+    
     
     
     
@@ -41,4 +41,4 @@ struct BedCloseUp: View {
             BedCloseUp()
         }
     }
-}
+
