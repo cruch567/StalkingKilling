@@ -56,7 +56,7 @@ struct Passcode: View {
                         .padding (.bottom, 160.0)
                         
                         
-                        NavigationLink(destination: FloorCloseUp()) {
+                        NavigationLink(destination:FloorloseUp()){
                             Text("Floor")
                         }
                         .padding(.top, 150.0)

@@ -10,35 +10,37 @@ import Foundation
 ///
 import SwiftUI
 
-struct FloorCloseUp: View {
+struct FloorloseUp: View {
     var sample = "hi"
     var body: some View {
         
-     Navigation
-        ZStack (alignment: .center){
-            
-            Image("passcoderoom.jpeg")
-                .resizable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fill)
-            NavigationLink(destination: BedCloseUp()) {
-                Text("Bed")
-            }
-            .background(Color.black)
-            .font(.title)
-            .foregroundColor(Color.red)
-            
+        NavigationStack{
+            ZStack (alignment: .center){
+                
+                Image("Floor")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fill)
+                
+                NavigationLink(destination: Passcode()) {
+                    Text("Next")
+                }
+                .background(Color.black)
+                .font(.title)
+                .foregroundColor(Color.red)
+            }//end of Button
             
         }
-        
-        
-    }
+                
+            }
+          
+            
+        }
     
     
     
     
     struct FloorCloseUp_Previews: PreviewProvider {
         static var previews: some View {
-            FloorCloseUp()
+            FloorloseUp()
         }
     }
-}

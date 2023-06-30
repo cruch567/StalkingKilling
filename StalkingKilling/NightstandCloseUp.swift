@@ -15,7 +15,7 @@ struct NightstandCLoseUp: View {
         NavigationStack{
             ZStack (alignment: .center){
                 
-                Image("passcoderoom.jpeg")
+                Image("Nightstand")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 
