@@ -5,42 +5,81 @@
 //  Created by Scholar on 6/28/23.
 //
 
-import Foundation
 import SwiftUI
 
 struct Passcode: View {
-    
-    @State private var floor = false
-    @State private var cieling = false
-    @State private var nightstand = false
-    @State private var bed = false
-    @State private var textBox = true
-    
+    var sample = "hi"
     var body: some View {
         
         NavigationStack {
             
-            ZStack (alignment: .bottom){
+            ZStack (alignment: .center){
                 
                 Image("passcoderoom.jpeg")
-                    
-                Button("You wake up in a room, and find a door in need of a 4 digit password, where do you check?"){
-                    
-                }
-                .background(Color.black)
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fill)
+                
+                ZStack (alignment: .bottomTrailing){
+                    Button("Next"){
+                        
+                    }//end of Button
+                    .background(Color.black)
                     .font(.title)
                     .foregroundColor(Color.red)
-                    .padding(.top, 20.0)
-                    .frame(width: 600.0, height: 250.0)
-                
-                NavigationLink(destination: CielingCLoseUp()) {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
+                    
+                    
                 }
                 
-            }//end of ZStack
+                HStack{
+                    
+                    NavigationLink(destination: BedCloseUp()) {
+                        Text("Bed")
+                    }
+                    .padding(.trailing, 150.0)
+                    
+                    NavigationLink(destination: PasscodeCLoseUp()){
+                        Text("Lock")
+                            .padding(.leading, 230.0)
+                    }
+                    
+                    NavigationLink(destination: NightstandCLoseUp()) {
+                        Text("Nightstand")
+                            .padding(.leading, 160.0)
+                    }
+                    
+                }
+                    
+                    VStack (alignment: .center) {
+                        NavigationLink(destination: CielingCLoseUp()) {
+                            Text("Cieling")
+                        }
+                        .padding (.bottom, 160.0)
+                        
+                        
+                        NavigationLink(destination: FloorCloseUp()) {
+                            Text("Floor")
+                        }
+                        .padding(.top, 150.0)
+                        
+                        
+                    } //end of NaviLink
+                    
+                    
+                    
+                    
+                }//end of ZStack
+            }//end of NaviStack
             
-        }//end of navigation stack
-    }
+            
+            
+            
+        }//end of body
+    }//end of struct
+    
+    
+    
+    
+    
     
     
     struct Passcode_Previews: PreviewProvider {
@@ -48,4 +87,5 @@ struct Passcode: View {
             Passcode()
         }
     }
-}
+    
+
