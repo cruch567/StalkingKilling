@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Butchers_Page: View {
+    @State private var isHidden2 = true
     var body: some View {
         ZStack {
             Image("kitchen.jpeg")
@@ -22,10 +23,28 @@ struct Butchers_Page: View {
                 Text("I")
                     .foregroundColor(.red)
                     .padding(.top)
-                Text("Talk to Butcher")
-                    .font(.title3)
-                    .foregroundColor(.black)
-                    .padding(.top)
+                if isHidden2 {
+                    Text("Hm, you wanna talk? I'm craving some meat... Go find me a treat first\n\n\n\n\n\n\n\n\n")
+                        .font(.title)
+                        .buttonStyle(.borderedProminent)
+                        .fontWeight(.bold)
+                        .cornerRadius(20)
+                        .foregroundColor(.red)
+                        .hidden()
+                }else{
+                    Text("Hm, you wanna talk? I'm craving some meat... Go find me a treat first\n\n\n\n\n\n\n\n\n")
+                        .font(.title)
+                        .buttonStyle(.borderedProminent)
+                        .fontWeight(.bold)
+                        .cornerRadius(20)
+                        .foregroundColor(.red)
+                }
+            Button("Talk to Butcher"){
+                isHidden2.toggle()
+            }
+            .font(.title3)
+            .foregroundColor(.black)
+            .padding(.top)
                 Text("I")
                     .foregroundColor(.red)
                     .padding(.top)
