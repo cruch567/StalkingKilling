@@ -36,29 +36,30 @@ struct CannonBall_Page: View {
                         Text("I")
                             .foregroundColor(.red)
                             .padding(.top)
-                    NavigationLink(destination: HoleInWall_Page()) {
+                        NavigationLink(destination: HoleInWall_Page()) {
                             Text("Launch A Rock")
                                 .font(.title3)
                                 .foregroundColor(.black)
                                 .padding(.top)
-                        Text("I")
-                            .foregroundColor(.red)
-                            .padding(.top)
-                    NavigationLink(destination: Doors_Page()){
-                            Text("I Go Back I")
-                                .font(.title3)
+                            Text("I")
                                 .foregroundColor(.red)
-                                .padding([.top, .leading])
+                                .padding(.top)
+                            NavigationLink(destination: Doors_Page()){
+                                Text("I Go Back I")
+                                    .font(.title3)
+                                    .foregroundColor(.red)
+                                    .padding([.top, .leading])
+                            }
                         }
                     }
                 }
             }
         }
     }
-}
-
+    
     struct CannonBall_Page_Previews: PreviewProvider {
         static var previews: some View {
             CannonBall_Page()
         }
     }
+}
