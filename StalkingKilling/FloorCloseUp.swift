@@ -31,7 +31,7 @@ struct FloorloseUp: View {
             
         }
                 
-            }
+            }//hii
           
             
         }
