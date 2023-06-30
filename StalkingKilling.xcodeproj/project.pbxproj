@@ -19,6 +19,7 @@
 		BD2D4F182A4B1BD4000D0D20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */; };
 		BD2D4F1A2A4B1BE1000D0D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */; };
 		BD2D4F1D2A4B1BE1000D0D20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2D4F1C2A4B1BE1000D0D20 /* Preview Assets.xcassets */; };
+		BD5B36AA2A4F3BDE0097030C /* Escaped.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B36A92A4F3BDE0097030C /* Escaped.swift */; };
 		BD70809A2A4CA7E300F84D88 /* ButchersDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7080992A4CA7E300F84D88 /* ButchersDeath.swift */; };
 		BD793B3D2A4C68E00062C302 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD793B3C2A4C68E00062C302 /* TitleScreen.swift */; };
 		BD8B00342A4F2F8800272F43 /* Lion-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B00332A4F2F8800272F43 /* Lion-Page.swift */; };
@@ -49,6 +50,7 @@
 		BD2D4F172A4B1BD4000D0D20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2D4F1C2A4B1BE1000D0D20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5B36A92A4F3BDE0097030C /* Escaped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escaped.swift; sourceTree = "<group>"; };
 		BD7080992A4CA7E300F84D88 /* ButchersDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButchersDeath.swift; sourceTree = "<group>"; };
 		BD793B3C2A4C68E00062C302 /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
 		BD8B00332A4F2F8800272F43 /* Lion-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lion-Page.swift"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				BD96A4822A4B37F30095820B /* ToughBreak-Death.swift */,
 				BD7080992A4CA7E300F84D88 /* ButchersDeath.swift */,
 				BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */,
+				BD5B36A92A4F3BDE0097030C /* Escaped.swift */,
 				BD2D4F192A4B1BE1000D0D20 /* Assets.xcassets */,
 				BD2D4F1B2A4B1BE1000D0D20 /* Preview Content */,
 			);
@@ -223,6 +226,7 @@
 				BD8B00342A4F2F8800272F43 /* Lion-Page.swift in Sources */,
 				BD028CD12A4DC4D1007525FB /* Butchers-Page.swift in Sources */,
 				BD10CDF82A4DCC100002E87D /* BedCloseUp.swift in Sources */,
+				BD5B36AA2A4F3BDE0097030C /* Escaped.swift in Sources */,
 				BD8B003A2A4F302200272F43 /* Lion-Death.swift in Sources */,
 				BD2D4F162A4B1BD4000D0D20 /* StalkingKillingApp.swift in Sources */,
 				BD96A4832A4B37F30095820B /* ToughBreak-Death.swift in Sources */,
