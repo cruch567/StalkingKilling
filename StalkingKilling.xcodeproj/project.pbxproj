@@ -27,6 +27,7 @@
 		BDAA183A2A4C927200FDA679 /* CannonBall-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */; };
 		BDAD71F12A4C7A3900362436 /* Doors-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAD71F02A4C7A3900362436 /* Doors-Page.swift */; };
 		BDC995D42A4DB9FB00ACC752 /* Spikes-Death.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC995D32A4DB9FB00ACC752 /* Spikes-Death.swift */; };
+		BDE3002D2A4F16000050CCD5 /* HoleInWall-Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE3002C2A4F16000050CCD5 /* HoleInWall-Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CannonBall-Page.swift"; sourceTree = "<group>"; };
 		BDAD71F02A4C7A3900362436 /* Doors-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Doors-Page.swift"; sourceTree = "<group>"; };
 		BDC995D32A4DB9FB00ACC752 /* Spikes-Death.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spikes-Death.swift"; sourceTree = "<group>"; };
+		BDE3002C2A4F16000050CCD5 /* HoleInWall-Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HoleInWall-Page.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				BD028CD02A4DC4D1007525FB /* Butchers-Page.swift */,
 				BD028D102A4DC8D0007525FB /* Butcher-Death2.swift */,
 				BDAA18392A4C927200FDA679 /* CannonBall-Page.swift */,
+				BDE3002C2A4F16000050CCD5 /* HoleInWall-Page.swift */,
 				BDC995D32A4DB9FB00ACC752 /* Spikes-Death.swift */,
 				BD96A47E2A4B34450095820B /* CanYouHearMe-Death.swift */,
 				BD96A4802A4B35860095820B /* CannonBall-Death.swift */,
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE3002D2A4F16000050CCD5 /* HoleInWall-Page.swift in Sources */,
 				BD793B3D2A4C68E00062C302 /* TitleScreen.swift in Sources */,
 				BD10CDF62A4DCC050002E87D /* NightstandCloseUp.swift in Sources */,
 				BD10CDF42A4DCBF40002E87D /* FloorCloseUp.swift in Sources */,

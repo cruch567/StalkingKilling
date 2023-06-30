@@ -36,13 +36,11 @@ struct CannonBall_Page: View {
                         Text("I")
                             .foregroundColor(.red)
                             .padding(.top)
-                        /*
-                    NavigationLink(destination: CannonBall_Death()) {
+                    NavigationLink(destination: HoleInWall_Page()) {
                             Text("Launch A Rock")
                                 .font(.title3)
                                 .foregroundColor(.black)
                                 .padding(.top)
-                         */
                         Text("I")
                             .foregroundColor(.red)
                             .padding(.top)
